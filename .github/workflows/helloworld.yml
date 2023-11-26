@@ -2,10 +2,10 @@ name: Hello_world
 
 on:
   push:
-    branhces:
+    branches:
       - main
   pull_request:
-    branhces:
+    branches:
       - main
   workflow_dispatch:
 
@@ -21,7 +21,7 @@ jobs:
   goodbye:
     runs-on: ubuntu-latest
     steps:
-      name: goodbye world
-      run: echo "goodbye world from soubhagya"
-      shell: bash
+      - name: goodbye world
+        run: echo "goodbye world from soubhagya"
+        shell: bash
       
