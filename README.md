@@ -1,4 +1,14 @@
+To install Django:
 pip install django
+
+to run app:
+python .\manage.py runserver
+
+to create a new app:
+python .\manage.py startapp polls
+
+
+
 
 
 HELP Command:
